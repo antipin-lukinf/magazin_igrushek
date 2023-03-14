@@ -1,3 +1,5 @@
+import  java.util.ArrayList;
+import java.util.List;
 public class Main {
 //    Задание 2
 //
@@ -24,4 +26,10 @@ public class Main {
 //    Немного менять и отходить от примера выше.
 
 
+    public static void main(String[] args){
+
+        List<Toy> toys = new ArrayList<>();
+        toys.add(new Mishka(1, "Fred", 15, "gren");
+
+    }
 }
