@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff877bd1-ae0a-401e-bad8-3bb6b7bcc647" name="Changes" comment="ne dobavliaetsia color">
+    <list default="true" id="ff877bd1-ae0a-401e-bad8-3bb6b7bcc647" name="Changes" comment="complit Mishka">
+      <change afterPath="$PROJECT_DIR$/src/Boll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mishka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mishka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Toy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678820204568</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ne dobavliaetsia color">
+      <created>1678903474950</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678903474950</updated>
+    </task>
+    <task id="LOCAL-00004" summary="complit Mishka">
+      <created>1678903547988</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678903547988</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add abstract class Toy" />
     <MESSAGE value="ne dobavliaetsia color" />
-    <option name="LAST_COMMIT_MESSAGE" value="ne dobavliaetsia color" />
+    <MESSAGE value="complit Mishka" />
+    <option name="LAST_COMMIT_MESSAGE" value="complit Mishka" />
   </component>
 </project>

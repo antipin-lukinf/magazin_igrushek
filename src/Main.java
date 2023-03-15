@@ -30,8 +30,10 @@ public class Main {
 
         List<Toy> toys = new ArrayList<>();
         toys.add(new Mishka(1, "Misha", 15, 80, "green"));
-        System.out.println(toys);
-        System.out.println(toys);
+        toys.add(new Boll(2, "basketBoll", 10, 10, "Basket"));
+        toys.add(new Car(3, "bigCar", 20, 10, "PickUp"));
+        System.out.print(toys);
+
 
     }
 }
