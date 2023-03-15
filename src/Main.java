@@ -31,6 +31,7 @@ public class Main {
         List<Toy> toys = new ArrayList<>();
         toys.add(new Mishka(1, "Misha", 15, 80, "green"));
         System.out.println(toys);
+        System.out.println(toys);
 
     }
 }
