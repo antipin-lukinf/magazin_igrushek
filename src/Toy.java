@@ -2,11 +2,21 @@ public abstract class Toy {
     private  int idToy;
     private String nameToy;
     private int quantity;
+    private int dropProbability;
 
-    public Toy(int idToy, String nameToy, int quantity) {
+    public Toy(int idToy, String nameToy, int quantity, int dropProbability) {
         this.idToy = idToy;
         this.nameToy = nameToy;
         this.quantity = quantity;
+        this.dropProbability = dropProbability;
+    }
+
+    public int getDropProbability() {
+        return dropProbability;
+    }
+
+    public void setDropProbability(int dropProbability) {
+        this.dropProbability = dropProbability;
     }
 
     public void setIdToy(int idToy) {
@@ -38,7 +48,8 @@ public abstract class Toy {
         return "Toy{" +
                 "idToy=" + idToy +
                 ", nameToy='" + nameToy + '\'' +
-                ", quantity=" + quantity +
+                ", quantity=" + quantity + '\'' +
+                ", dropProbability" + dropProbability +
                 '}';
     }
 }

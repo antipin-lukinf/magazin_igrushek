@@ -29,7 +29,8 @@ public class Main {
     public static void main(String[] args){
 
         List<Toy> toys = new ArrayList<>();
-        toys.add(new Mishka(1, "Fred", 15, "gren");
+        toys.add(new Mishka(1, "Misha", 15, 80, "green"));
+        System.out.println(toys);
 
     }
 }

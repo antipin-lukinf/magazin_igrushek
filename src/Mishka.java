@@ -1,7 +1,7 @@
 public class Mishka extends Toy{
-    public Mishka(int idToy, String nameToy, int quantity) {
-        super(idToy, nameToy, quantity);
-        this.setColor(color);
+    public Mishka(int idToy, String nameToy, int quantity, int dropProbability, String color) {
+        super(idToy, nameToy, quantity, dropProbability);
+        this.color = color;
     }
     private String color;
 
@@ -14,7 +14,8 @@ public class Mishka extends Toy{
     }
 
 
+    @Override
     public String toString() {
-        return String.format("%s - s%", super.toString(), color);
+        return String.format(super.toString(), color);
     }
 }
