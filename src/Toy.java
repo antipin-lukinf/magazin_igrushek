@@ -49,7 +49,7 @@ public abstract class Toy {
                 "idToy=" + idToy +
                 ", nameToy='" + nameToy + '\'' +
                 ", quantity=" + quantity + '\'' +
-                ", dropProbability" + dropProbability +
+                ", dropProbability=" + dropProbability +
                 '}';
     }
 }

@@ -1,12 +1,12 @@
 public class Car extends Toy{
-    public Car(int idToy, String nameToy, int quantity, int dropProbability, String body) {
+    public Car(int idToy, String nameToy, int quantity, int dropProbability) {
         super(idToy, nameToy, quantity, dropProbability);
-        this.body = body;
+
     }
     private String body;
 
     @Override
     public String toString() {
-        return String.format(super.toString(), body);
+        return String.format(super.toString());
     }
 }

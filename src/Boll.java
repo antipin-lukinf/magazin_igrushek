@@ -1,12 +1,12 @@
 public class Boll extends Toy{
-    public Boll(int idToy, String nameToy, int quantity, int dropProbability, String view) {
+    public Boll(int idToy, String nameToy, int quantity, int dropProbability) {
         super(idToy, nameToy, quantity, dropProbability);
-        this.view = view;
+
     }
     private String view;
 
     @Override
     public String toString() {
-        return String.format(super.toString(), view);
+        return String.format(super.toString());
     }
 }

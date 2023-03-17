@@ -1,5 +1,7 @@
 import  java.util.ArrayList;
 import java.util.List;
+
+
 public class Main {
 //    Задание 2
 //
@@ -29,10 +31,13 @@ public class Main {
     public static void main(String[] args){
 
         List<Toy> toys = new ArrayList<>();
-        toys.add(new Mishka(1, "Misha", 15, 80, "green"));
-        toys.add(new Boll(2, "basketBoll", 10, 10, "Basket"));
-        toys.add(new Car(3, "bigCar", 20, 10, "PickUp"));
-        System.out.print(toys);
+        toys.add(new Mishka(1, "Misha", 15, 80));
+        toys.add(new Boll(2, "basketBoll", 10, 10));
+        toys.add(new Car(3, "bigCar", 20, 10));
+        //System.out.print(toys);
+//        GamingMashin gamingMashin = new GamingMashin(toys);
+//        String g = String.valueOf(gamingMashin);
+//        System.out.println(g);
 
 
     }
