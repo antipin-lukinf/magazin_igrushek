@@ -1,3 +1,5 @@
+import java.io.FileWriter;
+import java.io.IOException;
 import  java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -29,7 +31,7 @@ public class Main {
 //    Немного менять и отходить от примера выше.
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
 
         List<Toy> toys = new ArrayList<>();
         List<Toy> toys1 = new ArrayList<>();
@@ -61,6 +63,10 @@ public class Main {
         Random rand = new Random();
         Toy randomElement = toys1.get(rand.nextInt(toys1.size()));
         System.out.println(randomElement);
+
+        FileWriter nFile = new FileWriter("file1.txt");
+        nFile.write(randomElement+"\n");
+        nFile.close();
 
 
 
