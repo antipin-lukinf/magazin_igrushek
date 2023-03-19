@@ -35,6 +35,8 @@ public class Main {
 
         List<Toy> toys = new ArrayList<>();
         List<Toy> toys1 = new ArrayList<>();
+        List<Toy> toys2 = new ArrayList<>();
+        List<Toy> gameList = new ArrayList<>();
         Mishka mishka = new Mishka(1, "Misha", 15, 8);
         toys.add(mishka);
 
@@ -59,16 +61,24 @@ public class Main {
         for (int i = 0; i < carDropProbality; i++) {
             toys1.add(car);
         }
-        //System.out.println(toys1);
+        System.out.println(toys1);
+
+
+
         Random rand = new Random();
         Toy randomElement = toys1.get(rand.nextInt(toys1.size()));
         System.out.println(randomElement);
 
+        toys2.add(randomElement);
+
+
+
+        toys1.remove(randomElement);
+
+
         FileWriter nFile = new FileWriter("file1.txt");
         nFile.write(randomElement+"\n");
         nFile.close();
-
-
 
     }
 }
